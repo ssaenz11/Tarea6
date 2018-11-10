@@ -55,6 +55,8 @@ public class Digrafo {
 	
 	}
 	
+	
+	
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		// TODO Auto-generated method stub
