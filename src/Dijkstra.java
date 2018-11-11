@@ -20,11 +20,11 @@ public class Dijkstra {
 	}
 
 	public static void main(String[] args) throws IOException {
-		
- System.out.println("Escriba el número de datos que desea procesar: (puede ser 5, 100, 1000 )");
-		 
-		 Scanner sc0 = new Scanner(System.in);
-			int tama = sc0.nextInt();
+
+		System.out.println("Escriba el número de datos que desea procesar: (puede ser 5, 100, 1000 )");
+
+		Scanner sc0 = new Scanner(System.in);
+		int tama = sc0.nextInt();
 
 		int[][] numbersList = new int [tama][tama];
 
@@ -54,7 +54,7 @@ public class Dijkstra {
 			dijkstra.nodes[i] = new Node(null, Integer.MAX_VALUE, i);
 
 		System.out.println("Por favor escriba de cuál nodo desea aplicar el algoritmo dijkstra:(ejemplo 0)");
-		
+
 		Scanner sc = new Scanner(System.in);
 		int source = sc.nextInt();
 		// se elige sobre cuál nodo empezar
