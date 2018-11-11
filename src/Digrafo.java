@@ -2,12 +2,14 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.PriorityQueue;
 
+import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleDirectedWeightedGraph;
-
-
-
 
 public class Digrafo {
 	
@@ -54,6 +56,13 @@ public class Digrafo {
 		
 	
 	}
+	
+	 public void dijkstra(){
+		 
+		 DijkstraShortestPath dijkstra = new DijkstraShortestPath(graph);
+		 
+	 }
+	
 	
 	
 	
